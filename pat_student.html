@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Student Registration</title>
+</head>
+<body onload="doOnLoad();">
+<div class="section">
+    	<div class="nav" style="margin-left: 640px;">
+    		
+			<form action="http://localhost/patproject/pat_student.php" method="post">
+				<div style="position:relative;height:80px;margin-top: 100px;">
+					<h1><b style="color: blue;">Student Registration</b></h1><br>
+					Name : <input type="text" name="uname" placeholder="Name" required="required"><br><br>
+					Email ID : <input type="email" name="username" placeholder="Email Id" required="required"><br><br>
+					Password : <input type="password" name="pwd" placeholder="Password" required="required"><br><br>
+					Rollno : <input type="text" name="rno" placeholder="Rollno" required="required"><br><br>
+					Branch : <select name="brh">
+								<option value="">--SELECT--</option>
+								<option value="CSE">CSE</option>
+								<option value="IT">IT</option>
+								<option value="ECE">ECE</option>
+								<option value="EEE">EEE</option>
+								<option value="MECH">MECH</option>
+								<option value="CIVIL">CIVIL</option>	   
+							   <select><br><br>
+					Passout Year : <input type="number" name="yr" placeholder="Passout Year" required="required"><br><br>
+					Hackerrank Username : <input type="text" name="sj" placeholder="Spoj Username" required="required"><br><br>
+					CodeChef Username : <input type="text" name="cc" placeholder="CodeChef Username" required="required"><br><br>
+					Codeforces Username : <input type="text" name="cf" placeholder="Codeforces Username" required="required"><br><br>
+					Id : <input type="number" name="id" placeholder="sno" required="required"><br><br>
+					<input type="submit" style="margin-left: 100px;" name="Register" value="Register" />
+				</div>
+			</form>
+		
+		</div>
+</div>
+</body>
+</html>
